@@ -10,6 +10,10 @@ Just small python projects while I make my self familiar with all the in's and o
  You can add/remove and view your items, exit on command,
  Because why not ? 
  
- 2) Web scraping with Selenium and into a csv with Pandas
+ 2) Web scraping with Selenium into a csv with Pandas
+ 
+ Scrap a website full of basketball player Data.
+ Get players names and salaries.
+ Import into a CSV.
  
  
