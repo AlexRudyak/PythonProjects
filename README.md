@@ -9,3 +9,7 @@ Just small python projects while I make my self familiar with all the in's and o
  It's recursive.
  You can add/remove and view your items, exit on command,
  Because why not ? 
+ 
+ 2) Web scraping with Selenium and into a csv with Pandas
+ 
+ 
