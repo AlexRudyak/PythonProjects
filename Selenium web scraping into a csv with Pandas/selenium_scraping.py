@@ -11,7 +11,7 @@ def create_excel_col(series_list):
 
 driver = webdriver.Chrome(service=Service('chromedriver/chromedriver.exe'))
 
-url = 'https://hoopshype.com/salaries/players/2018-2019/'
+url = 'https://hoopshype.com/salaries/players/'
 driver.get(url)
 
 
