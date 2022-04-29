@@ -20,10 +20,10 @@ salaries = driver.find_elements(By.XPATH, '//td[@class="hh-salaries-sorted"]')
 
 
 players_list = []
-for p in range(2, len(players)):
+for p in range(len(players)):
     players_list.append(players[p].text)
 players_list = [x for x in players_list if x]
-player_names = create_excel_col(players_list)
+player_names = create_excel_col(players_list[1:len(players_list)])
 
 salaries_list = []
 for s in range(2, len(salaries)):
