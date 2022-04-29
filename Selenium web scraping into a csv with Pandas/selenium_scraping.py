@@ -9,7 +9,7 @@ def create_excel_col(series_list):
     return series_list
 
 
-driver = webdriver.Chrome(service=Service('chromedriver/chromedriver.exe'))
+driver = webdriver.Chrome() # chromedriver.exe is in python/Scripts folder
 
 url = 'https://hoopshype.com/salaries/players/'
 driver.get(url)
