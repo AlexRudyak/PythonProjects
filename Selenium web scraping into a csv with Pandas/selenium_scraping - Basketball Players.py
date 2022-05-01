@@ -41,7 +41,3 @@ df = pd.concat(data, axis=1)
 df.to_csv('player_names_and_their_salaries.csv')
 
 driver.close()
-
-
-
-

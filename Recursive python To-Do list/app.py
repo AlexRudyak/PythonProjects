@@ -46,3 +46,5 @@ while user_input != option_list.index(option_list[-1])+1:
     
     show_menu(option_list)
     user_input = int(input ("Enter your choice: "))
+
+print("Hello"[0])
