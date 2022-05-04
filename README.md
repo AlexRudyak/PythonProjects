@@ -1,7 +1,7 @@
 # SmallPythonProjects
 Just small python projects.
 
-## List of available small projects:
+## List of available projects:
 
 **Recursive To-Do list**
 
