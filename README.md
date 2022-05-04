@@ -1,5 +1,5 @@
 # SmallPythonProjects
-Just small python projects while I make my self familiar with all the in's and out's.
+Just small python projects.
 
 ## List of available small projects:
 
@@ -12,8 +12,13 @@ Just small python projects while I make my self familiar with all the in's and o
  
  2) Web scraping with Selenium into a csv with Pandas
  
- Scrap a website full of basketball player Data.
+ Scrape a website full of basketball player Data.
  Get players names and salaries.
  Import into a CSV.
+ 
+ 3) A simple GUI with Python Tkinter
+ 
+ A simple GUI with Tkinter, was made to control a Signal Generator
+ Test Equipment in a later, slightly bigger project.
  
  
