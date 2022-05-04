@@ -1,17 +1,17 @@
 # SmallPythonProjects
-Just small python projects.
+Just small Python projects.
 
 ## List of available projects:
 
 **Recursive To-Do list**
 
- >Just a small python terminal To-Do list.
+ >Just a small Python terminal To-Do list.
  It's recursive.
  You can add/remove and view your items, exit on command.
 
 ---
 
-**Web scraping with Selenium into a csv with Pandas**
+**Web Scraping with Selenium into a CSV with Pandas**
  
  >Scrape a website full of basketball player Data.
  Get players names and salaries.
