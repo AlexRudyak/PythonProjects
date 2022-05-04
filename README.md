@@ -7,9 +7,8 @@ Just small python projects.
 
  Just a small python terminal To-Do list.
  It's recursive.
- You can add/remove and view your items, exit on command,
- Because why not ? 
- 
+ You can add/remove and view your items, exit on command.
+
  2) Web scraping with Selenium into a csv with Pandas
  
  Scrape a website full of basketball player Data.
