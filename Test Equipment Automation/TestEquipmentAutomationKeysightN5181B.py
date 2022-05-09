@@ -3,7 +3,7 @@ from time import sleep
 import math
 
 rm = pyvisa.ResourceManager()
-sg_com = rm.list_resources()[0]
+sg_com = rm.list_resources()[0] # Specific for my machine, run without square brackets into print to see the list.
 sg = rm.open_resource(sg_com)
 
 frequency = int(input("Input Frequency in GHz: "))
