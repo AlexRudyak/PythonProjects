@@ -26,3 +26,17 @@ Just small Python projects.
  
  ---
  
+ **Test Equipment Automation - Keysight N5181B Signal Generator**
+ 
+ >Automate the N5181B Signal Generator.
+ >You can choose Frequency and Amplitude, the program will go from one amplitude to another with user chosen steps.
+ >Turns RF Output ON at start and OFF when done.<br>
+ >Required pyvisa python library, can be installed with:
+``` 
+pip3 install -U pyvisa
+```
+ 
+ > and NI-VISA is neccesery as backend, found at:
+ > https://pyvisa.readthedocs.io/en/latest/faq/getting_nivisa.html
+ 
+ ---
