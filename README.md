@@ -38,5 +38,6 @@ pip3 install -U pyvisa
  
  > and NI-VISA is neccesery as backend, found at:
  > https://pyvisa.readthedocs.io/en/latest/faq/getting_nivisa.html
+ > The commands are taken from N5181B programmers guide, included in the folder.
  
  ---
