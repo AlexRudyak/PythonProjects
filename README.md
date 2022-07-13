@@ -19,13 +19,6 @@ Just small Python projects.
  
  ---
  
-**A simple GUI with Python Tkinter**
- 
- >A simple GUI with Tkinter, was made to control a Signal Generator
- Test Equipment in a later, slightly bigger project.
- 
- ---
- 
  **Test Equipment Automation - Keysight N5181B Signal Generator**
  
  >Automate the N5181B Signal Generator.
