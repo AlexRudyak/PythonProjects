@@ -36,7 +36,7 @@ for command in command_list:
     counter_2.write(command)
 
 filename = "TimeIntervalLogs_" + str(date.today()) + "_" + datetime.now().strftime("%H.%M.%S") + ".csv"     """The file name will change each time it ran
-                                                                                                               With date and time of the run"""
+                                                                                                               With current date and time"""
 log = open(filename, 'w')
 i = 1
 log.write("Date, Time, Counter 1, Counter 2\n")
