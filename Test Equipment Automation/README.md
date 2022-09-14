@@ -1,25 +1,21 @@
-# SmallPythonProjects
-Just small Python projects.
+# Test Equipment Automation
+
+## Prerequisite
+
+1) Pyvisa python library.<br>
+Can be installed with:
+``` 
+  pip3 install -U pyvisa
+```
+
+2)  NI-VISA is neccesery as backend.<br>
+found at:
+ https://pyvisa.readthedocs.io/en/latest/faq/getting_nivisa.html<br>
+ 
+3) The commands are taken from the respective programmers guide, included in the folder.
 
 ## List of available projects:
-
-**Recursive To-Do list**
-
- >Just a small Python terminal To-Do list.
- It's recursive.
- You can add/remove and view your items, exit on command.
-
----
-
-**Web Scraping with Selenium into a CSV with Pandas**
  
- >Scrape a website full of basketball player Data.
- Get players names and salaries.
- Import into a CSV.
- 
- ---
- 
- **Test Equipment Automation**
  - Keysight N5182B Signal Generator
  
  >Automate the N5181B Signal Generator.
@@ -31,14 +27,3 @@ Just small Python projects.
  >Automate the FCA3031 Counter.
  >The program will take samples of time interval between INPUT1 and INPUT2 from the counter every second, into a csv file.
  >Everytime the program is run it will make a new file with date and time stamp for easier data management<br>
- 
- >Required pyvisa python library, can be installed with:
-``` 
-pip3 install -U pyvisa
-```
- 
- > NI-VISA is neccesery as backend, found at:
- > https://pyvisa.readthedocs.io/en/latest/faq/getting_nivisa.html<br>
- > The commands are taken from the respective programmers guide, included in the folder.
- 
- ---
