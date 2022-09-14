@@ -14,7 +14,7 @@ found at:
  
 3) The commands are taken from the respective programmers guide, included in the folder.
 
-## List of available projects:
+## List of available Equipment:
  
  - Keysight N5182B Signal Generator
  
