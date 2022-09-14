@@ -19,6 +19,7 @@ found at:
 ## List of available Equipment:
  
  - Keysight - N5182B - Signal Generator
+    - Can only transmit CW.
  
  - Tektronix - FCA3031 - Timer/Counter Analyzer
  
