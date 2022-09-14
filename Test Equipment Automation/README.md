@@ -15,8 +15,6 @@ Can be installed with:
 2)  NI-VISA is neccesery as backend.<br>
 found at:
  https://pyvisa.readthedocs.io/en/latest/faq/getting_nivisa.html<br>
- 
-3) The commands are taken from the respective programmers guide, included in the folder.
 
 ## List of available Equipment:
  
