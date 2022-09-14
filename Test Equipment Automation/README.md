@@ -1,8 +1,8 @@
 # Test Equipment Automation
 
-Automate Lab Testing Equipment for easier manipulation.
-Source code provided for prototyping.
-All the commands are taken from respective programmer manuals included in the folder.
+Automate Lab Testing Equipment for easier manipulation.<br>
+Source code provided for prototyping.<br>
+All the commands are taken from the programmer manuals, included.
 
 ## Prerequisite
 
