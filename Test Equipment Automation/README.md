@@ -16,11 +16,8 @@ found at:
 
 ## List of available Equipment:
  
- - Keysight N5182B Signal Generator
+ - Keysight - N5182B - Signal Generator
  
- >Automate the N5181B Signal Generator.
+ - Tektronix - FCA3031 - Timer/Counter Analyzer
  
- - Tektronix FCA3031 Timer/Counter Analyzer
- 
- >Automate the FCA3031 Counter.
 
