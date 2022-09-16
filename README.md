@@ -5,7 +5,7 @@
 
 ---
 
-## CMD Integrated Unit Converter**
+### CMD Integrated Unit Converter
 
  - Convert Units from base 2,10,16 to any base 2,10,16.
  - Add two differently based numbers into any desired base.
@@ -13,7 +13,7 @@
 
 ---
 
-## Recursive To-Do list**
+### Recursive To-Do list
 
  - Python terminal To-Do list.
  It's recursive.
@@ -21,7 +21,7 @@
 
 ---
 
-** Web Scraping with Selenium into a CSV with Pandas**
+### Web Scraping with Selenium into a CSV with Pandas
  
  - Scrape a website full of basketball player Data.
  Get players names and salaries.
@@ -29,7 +29,7 @@
  
  ---
  
- ** Test Equipment Automation**
+ ### Test Equipment Automation
  
  - Automate the N5181B Signal Generator.
    >Keysight N5182B Signal Generator
