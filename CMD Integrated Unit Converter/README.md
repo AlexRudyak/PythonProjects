@@ -1,10 +1,10 @@
-# CMD Integrated Unit Converter
+# CMD Integrated Unit Base Converter
 
 Debugging/Coding Embedded projects and There is a need to convert units from different bases?<br>
 Dont want to use the windows calculator again because it is too slow?<br>
-Want to convert the units and still be on your coding file?<br>
+Want to convert the base units and still be on your coding file?<br>
 
-This is a CMD Integrated Unit Converter.
+This is a CMD Integrated Unit Base Converter.
 
 Made with pure python.
 
