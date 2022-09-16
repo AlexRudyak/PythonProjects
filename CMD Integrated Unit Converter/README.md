@@ -13,6 +13,12 @@ Simply make an executable and add to PATH.
 Installing _pyinstaller_:
 >pip install pyinstaller
 
+Create an executable of _ucalc.py_ and add it to path:
+>pyinstaller --onefile ucalc.py
+
+A directory named `dist` will be created.
+Either add the path to the .exe or copy paste the program into system32 directory.
+
 ## Supported Types:
 
 Binary      - 'b' or 'bin' or 'binary'                - Takes values '0's or '1's<br>
@@ -21,7 +27,14 @@ Hexadecimal - 'h' or 'hex' or 'hexa' or 'hexadecimal' - Takes values 0-9, A-F<br
 
 ## Available Functions:
 
-- -conv<br>
+`-h | -help` <br>
+
+Display a help message.
+
+Syntax:
+>ucalc -h
+
+`-conv`<br>
 
 Convert Function.<br>
 Converts from one unit type to another.
@@ -29,8 +42,9 @@ Converts from one unit type to another.
 Syntax:
 >ucalc -conv fromType value toType
         
-
-- -add<br>
+>ucalc -conv d 10 b
+>
+`-add`<br>
 
 Add Function.<br>
 Adds two numbers from different or same types into desired type.<br>
