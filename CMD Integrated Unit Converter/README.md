@@ -75,8 +75,8 @@ Answer: 0xff91
 ```
 ## Future Support:
 XOR for all bases.<br>
-SUBtract for all bases.
-Negetive binary and hexadecimals, currently only adding to negative decimal numbers works.
+SUBtract for all bases.<br>
+Negetive binary and hexadecimals, currently only adding to negative decimal numbers works.<br>
 
 
 Can be used without creating a .exe with:
