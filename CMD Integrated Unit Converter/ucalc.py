@@ -18,7 +18,7 @@ try:
             if len(sys.argv) != 5:
                 raise convArgumentNumberException
 
-            print(conv(sys.argv[2],sys.argv[3],sys.argv[4]))
+            print("Answer: " + str(conv(sys.argv[2],sys.argv[3],sys.argv[4])))
 
         case "-add":
             if len(sys.argv) != 7:
@@ -26,7 +26,7 @@ try:
 
             decOne = int(conv(sys.argv[2],sys.argv[3],'d'))
             decTwo = int(conv(sys.argv[4],sys.argv[5],'d'))
-            print(conv('d',decOne + decTwo,sys.argv[6]))
+            print("Answer: " + str(conv('d',decOne + decTwo,sys.argv[6])))
 
         case "-sub": 
             print ("sub")
