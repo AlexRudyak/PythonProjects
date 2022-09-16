@@ -40,20 +40,41 @@ Convert Function.<br>
 Converts from one unit type to another.
 
 Syntax:
->ucalc -conv fromType value toType
-        
->ucalc -conv d 10 b
->
+```
+ucalc -conv fromType value toType
+```        
+```
+ucalc -conv d 10 b
+Answer: 1010
+
+ucalc -conv binary 111000111 hex
+Answer: 0x1c7
+
+ucalc -conv hexa 0xff11 b
+Answer: 1111 1111 0001 0001
+```
+
 `-add`<br>
 
 Add Function.<br>
 Adds two numbers from different or same types into desired type.<br>
 
 Syntax:
->ucalc -add inputType1 value1 inputType2 value2 outputType
+```
+ucalc -add inputType1 value1 inputType2 value2 outputType
+```
+```
+ucalc -add d 10 b 1001 d
+Answer: 19
 
+ucalc -add binary 111000111 hex 0xff binary
+Answer: 0010 1100 0110
+
+ucalc -add hexa 0xff11 decimal 128 h
+Answer: 0xff91
+```
 ## Future Support:
 XOR for all bases.<br>
 SUBtract for all bases.
-
+Negetive binary and hexadecimals, currently only adding to negative decimal numbers works.
 
