@@ -9,6 +9,9 @@ Hexadecimal - 'h' or 'hex' or 'hexa' or 'hexadecimal' - Takes values 0-9, A-F
 
 Available Functions:
 
+-help   Show this menu.
+-h
+
 -conv   Convert Function
         Converts from one unit type to another.
 
@@ -34,5 +37,4 @@ available_types = ['b',
                   'h', 
                   'hex', 
                   'hexa', 
-                  'hexadecimal'
-                  ]
+                  'hexadecimal']

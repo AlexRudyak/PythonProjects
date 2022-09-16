@@ -6,7 +6,7 @@ def convert_from_hexadecimal_to_type(hexadecimal_value,to_type):
         case 'd' | 'dec' | 'decimal':
             return int(str(hexadecimal_value),base)
 
-        # from hexadecimal to binary
+        # from hexadecimal to binary add space for each 4 digit
         case 'b' | 'bin' | 'binary':
             output = ""
             binary_value = bin(int(str(hexadecimal_value),base)).replace("0b","")

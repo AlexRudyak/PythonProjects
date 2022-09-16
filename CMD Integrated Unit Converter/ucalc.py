@@ -1,8 +1,11 @@
 import sys
 sys.tracebacklimit = 0
 from conv import *
-from texts import help_text
 from errors import *
+from texts import *
+from from_binary import *
+from from_decimal import *
+from from_hexadecimal import *
 
 try:
 

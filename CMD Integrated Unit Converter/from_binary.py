@@ -12,4 +12,12 @@ def convert_from_binary_to_type(binary_value,to_type):
         
         # if binary return as is
         case 'b' | 'bin' | 'binary':
-            return bin(int(str(binary_value),base)).replace("0b","")
+            output = ""
+            binary_value = bin(int(str(binary_value),base)).replace("0b","")
+            if len(binary_value)%4 != 0:
+                binary_value = (4-len(binary_value)%4)*"0" + binary_value
+            for i,digit in enumerate(binary_value):
+                output += digit
+                if (i+1)%4 == 0:
+                    output += " "
+            return output
