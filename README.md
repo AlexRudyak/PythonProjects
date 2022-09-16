@@ -1,5 +1,5 @@
-# SmallPythonProjects
-Just small Python projects.
+# PythonProjects
+
 
 ## List of available projects:
 
