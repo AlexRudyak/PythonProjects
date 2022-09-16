@@ -1,6 +1,6 @@
 # CMD Integrated Unit Converter
 
-Debugging/Coding Embedded projects and There is a need to convert unitsfrom different?<br>
+Debugging/Coding Embedded projects and There is a need to convert units from different bases?<br>
 Dont want to use the windows calculator again because it is too slow?<br>
 Want to convert the units and still be on your coding file?<br>
 
