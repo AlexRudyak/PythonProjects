@@ -1,39 +1,45 @@
-# PythonProjects
+# CMD Integrated Unit Converter
 
+Debugging/Coding Embedded projects and There is a need to convert unitsfrom different?<br>
+Dont want to use the windows calculator again because it is too slow?<br>
+Want to convert the units and still be on your coding file?<br>
 
-## List of available projects:
+This is a CMD Integrated Unit Converter.
 
----
+Made with pure python.
 
-### CMD Integrated Unit Converter
+Simply make an executable and add to PATH.
 
- - Convert Units from base 2,10,16 to any base 2,10,16.
- - Add two differently based numbers into any desired base.
- - Fully Integraded in CMD for easy VSCode terminal use.
+Installing _pyinstaller_:
+>pip install pyinstaller
 
----
+## Supported Types:
 
-### Recursive To-Do list
+Binary      - 'b' or 'bin' or 'binary'                - Takes values '0's or '1's<br>
+Decimal     - 'd' or 'dec' or 'decimal'               - Takes values 0-9<br>
+Hexadecimal - 'h' or 'hex' or 'hexa' or 'hexadecimal' - Takes values 0-9, A-F<br>
 
- - Python terminal To-Do list.
- It's recursive.
- You can add/remove and view your items, exit on command.
+## Available Functions:
 
----
+- -conv<br>
 
-### Web Scraping with Selenium into a CSV with Pandas
- 
- - Scrape a website full of basketball player Data.
- Get players names and salaries.
- Import into a CSV.
- 
- ---
- 
- ### Test Equipment Automation
- 
- - Automate the N5181B Signal Generator.
-   >Keysight N5182B Signal Generator
- 
- - Automate the FCA3031 Counter.
-   >Tektronix FCA3031 Timer/Counter Analyzer
+Convert Function.<br>
+Converts from one unit type to another.
+
+Syntax:
+>ucalc -conv fromType value toType
+        
+
+- -add<br>
+
+Add Function.<br>
+Adds two numbers from different or same types into desired type.<br>
+
+Syntax:
+>ucalc -add inputType1 value1 inputType2 value2 outputType
+
+## Future Support:
+XOR for all bases.<br>
+SUBtract for all bases.
+
 
