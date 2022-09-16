@@ -78,3 +78,7 @@ XOR for all bases.<br>
 SUBtract for all bases.
 Negetive binary and hexadecimals, currently only adding to negative decimal numbers works.
 
+
+Can be used without creating a .exe with:
+>python ucalc.py -function 
+
